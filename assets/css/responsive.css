@@ -1,0 +1,187 @@
+@media screen and (max-width: 1025px) {
+  .carousel h1, .carousel h5 {
+    font-size: 45px;
+  }
+  .carousel .carousel-caption {
+    width: 65%;
+  }
+  .nc-bg-center {
+    background-position: center;
+  }
+  .nc-sizes h3 {
+    font-size: 25px;
+  }
+  .nc-sizes p {
+    font-size: 15px;
+  }
+  .responsive-heading {
+    font-size: 25px;
+  }
+  .nc-cover1 h3, .nc-cover2 h3, .nc-cover3 h3, .nc-cover4 h3 {
+    font-size: 30px;
+  }
+  .nc-cover1 a, .nc-cover2 a, .nc-cover3 a, .nc-cover4 a {
+    font-size: 14px;
+  }
+  #coaches h4 {
+    font-size: 20px !important;
+  }
+  .position-relative p {
+    font-size: 14px;
+    padding: 7px 14px !important;
+  }
+  .testimonals {
+    width: 70%;
+  }
+  .testimonals p {
+    font-size: 15px;
+  }
+  footer h3 {
+    font-size: 26px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  .nc-h2-responsive {
+    font-size: 43px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .nc-responsive-color {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+  }
+  .nc-adjust {
+    width: 30%;
+    right: 35%;
+    bottom: 180px;
+  }
+  .testimonals {
+    width: auto;
+  }
+  .nc-h2-responsive {
+    font-size: 38px;
+  }
+  .btn-link {
+    height: 50px;
+  }
+  .btn-link::after {
+    top: 6.2px;
+  }
+  #membership {
+    height: 330px;
+  }
+  .nc-vh {
+    height: 400px !important;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .carousel h5 {
+    font-size: 50px;
+  }
+  .carousel .carousel-caption {
+    width: auto;
+  }
+  .nc-sizes h3 {
+    font-size: 23px;
+  }
+  .nc-sizes p {
+    font-size: 14px;
+  }
+  .nc-sizes h2 {
+    font-size: 28px;
+  }
+  .nc-sizes h4 {
+    font-size: 15px;
+  }
+  .responsive-heading {
+    font-size: 22px;
+  }
+  .nc-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .nc-icon i {
+    font-size: 25px;
+  }
+  .nc-cover1 h3, .nc-cover2 h3, .nc-cover3 h3, .nc-cover4 h3 {
+    font-size: 25px;
+  }
+  .nc-cover1 a, .nc-cover2 a, .nc-cover3 a, .nc-cover4 a {
+    font-size: 12px;
+  }
+  .nc-button, .nc-button2 {
+    font-size: 14px !important;
+  }
+  .nc-adjust {
+    width: 40%;
+    right: 30%;
+    font-size: 18px;
+  }
+  .position-relative p {
+    top: 10px;
+    left: 23px;
+    font-size: 13px;
+  }
+  .position-relative h4 {
+    bottom: 10px;
+    left: 23px;
+    font-size: 18px;
+    padding: 8px 16px !important;
+  }
+  .testimonals p {
+    font-size: 14px;
+  }
+  #questions p {
+    font-size: 13px;
+  }
+  #questions h3 {
+    font-size: 16px;
+  }
+  footer h3 {
+    font-size: 22px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  .nc-card-edit button {
+    font-size: 15px;
+    padding-right: 25px;
+  }
+  .nc-card-edit .card-body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .nc-button, .nc-button2 {
+    font-size: 13px !important;
+  }
+  .nc-adjust {
+    width: 50%;
+    right: 25%;
+    font-size: 16px;
+  }
+  .position-relative p {
+    font-size: 13px;
+    padding: 3px 6px !important;
+  }
+  .position-relative h4 {
+    font-size: 16px;
+    padding: 7px 14px;
+  }
+  .nc-h2-responsive {
+    font-size: 33px;
+  }
+  .nc-card-edit button {
+    font-size: 14px;
+  }
+  .btn-link::after {
+    display: none;
+  }
+  #membership {
+    background-position: center;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

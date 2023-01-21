@@ -1,0 +1,309 @@
+$zuta: #ffce25;
+$crvena: #d01919;
+$bela: #fff;
+$crna: #191919;
+$plava: #e8edf6;
+$option: #bebebe;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nc-bg-dark{
+    background-color: $crna;
+}
+.nc-bg-blue{
+    background-color: $plava;
+}
+.nc-vh{
+    height: 700px !important;
+    object-fit: cover;
+}
+.nc-red-color{
+    color: $crvena;
+}
+.nc-yellow-color{
+    color: $zuta !important;
+}
+.line2{
+    width: 90%;
+    height: 2px;
+    background-color: $option;
+}
+.nc-bg-red{
+    background-color: $crvena;
+}
+.nc-light-black{
+    color: $crna;
+}
+.nc-button{
+    background-color: $crvena;
+    color: $bela;
+    box-shadow: none !important;
+    &:hover{
+    background-color: #ffce25;
+    color: $crna;
+    }
+}
+.nc-button2{
+    background-color: $zuta;
+    color: $crna;
+    box-shadow: none !important;
+    &:hover{
+    background-color: $crvena;
+    color: $bela;
+    }
+}
+.text-justify{
+    text-align: justify;
+}
+.nc-background-transparent{
+    background-color: rgba($color: #000000, $alpha: 0.7);
+}
+.line{
+    height: 3px;
+    width: 40px;
+}
+.z-1{
+    z-index: 1;
+    width: 100%;
+}
+.carousel{
+    z-index: 0 !important;
+    h1,h5{
+        font-size: 60px;
+    }
+    .carousel-caption{
+        width: 50%;
+    }
+}
+button:focus{
+    outline: none !important;
+}
+.nav-link{
+    &:hover{
+    color: $zuta !important;
+    transition: 0.3s ease-in-out;
+    }
+    font-size: 17px;
+}
+.nc-adjust{
+    z-index: 2;
+    width: 22%;
+    height: 40px;
+    bottom: 330px;
+    right: 40%;
+    font-size: 20px;
+}
+.nc-icon{
+    width: 80px;
+    height: 80px;
+    i{
+        font-size: 35px;
+    }
+}
+.nc-sizes {
+    h3{
+    font-size: 28px;
+    }
+    h4{
+        font-size: 17px;
+    }
+}
+.nc-cover1{
+    background-image: url(../img/program1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 395px;
+    h3{
+        font-size: 35px;
+    }    
+}
+.nc-cover2{
+    @extend .nc-cover1;
+    background-image: url(../img/program2.jpg);
+}
+.nc-cover3{
+    @extend .nc-cover1;
+    background-image: url(../img/program3.jpg);
+}
+.nc-cover4{
+    @extend .nc-cover1;
+    background-image: url(../img/program4.jpg);
+}
+.card{
+    padding: 10px;
+}
+.nc-font-16{
+    font-size: 16px;
+}
+.position-relative{
+    p{
+        top: 15px;
+        left: 30px;
+    }
+    h4{
+        left: 30px;
+        bottom: 15px;
+    }
+}
+#experinces{
+    background-image: url(../img/cover1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 730px;
+}
+.testimonals {
+    width: 55%;
+    i{
+    font-size: 30px;
+    }
+}
+.no-radius{
+    border-radius: 0px .25rem .25rem 0px !important;
+}
+.input-group-text, .form-control{
+    border: none !important;
+}
+input{
+    box-shadow: none !important;
+    &:active, &:focus{
+        border: red !important;
+    }
+}
+#membership{
+    background: url(../img/cover9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+.nc-h2-responsive{
+    font-size: 50px;
+}
+.nc-option{
+    color: $option !important;
+}
+.nc-reset{
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    h4{
+        font-size: 40px;
+    }
+}
+.nc-recomend{
+    box-shadow: 0 5px 23px 0 #c0c0c0;
+}
+#questions{
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/questions2.jpg);
+    h3{
+        font-size: 17px;
+    }
+    p{
+        font-size: 15px;
+        text-align: justify;
+    }
+}
+iframe{
+    height: 315px;
+    width: 100%;
+}
+.nc-card-edit{
+    .card-header{
+    background-color: $plava !important;
+    }
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+    .collapsed::after{
+        content: '\002B';
+    }
+    .card-body{
+        background-color: transparent !important;
+        font-size: 16px;
+        color: $crna;
+        text-align: justify;
+    }
+}
+.btn-link{
+    height: 60px;
+    &::after{
+        content: '\2212';
+        font-size: 25px;
+        text-align: center;
+        border-radius: 5px;
+        position: absolute;
+        top: 11.6px;
+        right: 15px;
+    }
+}
+.nc-btn-edit{
+    color: $crna;
+    &:focus{
+        text-decoration: none;
+        box-shadow: none;
+    }
+    &:hover{
+        color: $bela;
+        text-decoration: none;
+        background-color: $zuta;
+        transition: 0.4s ease-in-out;
+    }
+}
+#nc-form2{
+    input{
+        border: 2px solid #d9d9d9 !important;
+    }
+    button{
+        border: none !important;
+    }
+}
+footer a:hover{
+    text-decoration: none;
+    color: $crvena !important;
+    transition: 0.3s ease;
+}
+.navbar-brand{
+    animation: SlideInLeft 2s ease !important;
+}
+.navbar-nav, .navbar-toggler, .animate1{
+    animation: ShowDiv 3.5s ease !important;
+}
+@keyframes SlideInLeft {
+    0% {
+    margin-left: -140px;
+    opacity: 0;
+    }
+100% {
+    margin-left: 0;
+    opacity: 1;
+    }
+}
+@keyframes ShowDiv {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+@keyframes Width{
+    0%{
+        margin-top: 450px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+.animate2{
+    animation: SlideUp 4s ease !important;
+}
